@@ -82,7 +82,7 @@ Opción 1: Ejecutar localmente (recomendado)
 
 Clona el repositorio:
 
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/JoseOlivaSantos/pkedex-un-prompt
 
 
 Ingresa a la carpeta del proyecto:
