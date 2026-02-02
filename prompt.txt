@@ -1,0 +1,53 @@
+Actúa como un desarrollador frontend senior.
+
+Necesito que generes un proyecto completo y funcional de una Pokedex usando la PokeAPI v2, cumpliendo ÚNICAMENTE con los siguientes requisitos mínimos. No hagas nada fuera de lo solicitado.
+
+OBJETIVO
+Crear una Pokedex simple que permita:
+1. Listar Pokémon con paginación
+2. Ver el detalle de un Pokémon
+
+API A UTILIZAR
+PokeAPI v2
+- Listado: GET https://pokeapi.co/api/v2/pokemon?limit=XX&offset=YY
+- Detalle: GET https://pokeapi.co/api/v2/pokemon/{name} o {id}
+
+FUNCIONALIDADES OBLIGATORIAS
+1. Listado de Pokémon
+- Consumir el endpoint GET /pokemon
+- Implementar paginación usando limit y offset
+- Mostrar al menos: nombre del Pokémon y un botón o enlace para ver su detalle
+- Debe ser posible cambiar de página (siguiente / anterior)
+
+2. Detalle de Pokémon
+- Consumir el endpoint GET /pokemon/{name} o /pokemon/{id}
+- Mostrar información básica del Pokémon, por ejemplo:
+  - Nombre
+  - Imagen
+  - Altura
+  - Peso
+  - Tipos
+(No es necesario mostrar TODA la información, solo datos básicos)
+
+RESTRICCIONES IMPORTANTES
+- No agregues funcionalidades extra (búsqueda avanzada, favoritos, login, etc.)
+- Mantén el proyecto simple
+- Lenguajes permitidos: PHP, JavaScript.  
+- Frontend: HTML, CSS y JavaScript puro (sin frameworks/librerías JS). 
+- Diseño responsive 
+
+TECNOLOGÍA
+- Puedes usar HTML, CSS y JavaScript puro
+- El código debe poder ejecutarse localmente sin configuraciones complejas
+
+ENTREGABLE
+- Genera la estructura del proyecto
+- Incluye todos los archivos necesarios
+- Explica brevemente cómo ejecutar el proyecto
+- Asegúrate de que con ESTE ÚNICO PROMPT se pueda generar todo el proyecto
+
+IMPORTANTE
+Este mensaje debe ser suficiente por sí solo.
+No hagas preguntas adicionales.
+No dividas la respuesta en múltiples fases.
+Genera directamente el resultado completo.
