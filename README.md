@@ -116,3 +116,6 @@ Claridad del prompt
 Alcance de las instrucciones
 
 Capacidad de dirección hacia un resultado funcional
+
+constancia de uso de un solo prompt:
+https://github.com/user-attachments/assets/445fd010-9563-4d44-a9f6-94bbdf91f6a4
